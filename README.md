@@ -69,7 +69,7 @@ This project compares Bayesian Optimization (BO) using Optuna with Covariance Ma
 ![Accuracy by Seed (Heart attack prediction)](imgs/Untitled1.png)
 ![Accuracy by Seed (Mobile Price Classification)](imgs/Untitled2.png)
 ![Accuracy by Seed (Loan Approval Classification)](imgs/Untitled3.png)
-![Accuracy by Seed (Beaches vs Mountains Preference)](imgs/Untitled4.png)
+![Accuracy by Seed (Beaches vs Mountains Preference)](imgs/Untitled4png.png)
 
 ---
 
