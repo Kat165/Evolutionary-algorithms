@@ -64,6 +64,12 @@ This project compares Bayesian Optimization (BO) using Optuna with Covariance Ma
      - **CMA-ES** exhibited only minor variations.
 5. **Performance Metrics**:
    - Optimized models (both Optuna and CMA-ES) consistently surpassed the benchmark in terms of accuracy, F1 score, and recall.
+  
+![Accuracy by Seed (Mushroom)](imgs/Untitled.png)
+![Accuracy by Seed (Heart attack prediction)](imgs/Untitled1.png)
+![Accuracy by Seed (Mobile Price Classification)](imgs/Untitled2.png)
+![Accuracy by Seed (Loan Approval Classification)](imgs/Untitled3.png)
+![Accuracy by Seed (Beaches vs Mountains Preference)](imgs/Untitled4.png)
 
 ---
 
@@ -76,6 +82,10 @@ This project compares Bayesian Optimization (BO) using Optuna with Covariance Ma
    - **Optuna** tended to converge faster than CMA-ES.
 3. **Performance**:
    - On average, **CMA-ES** achieved higher accuracy than Optuna.
+  
+![Optuna Accuracy Improvement by Dataset](imgs/Untitled5.png)
+![CMA-ES Accuracy Improvement by Dataset](imgs/Untitled6.png)
+![Frequency of Hyperparameter Occurences](imgs/Untitled7.png)
 
 ---
 
@@ -83,3 +93,5 @@ This project compares Bayesian Optimization (BO) using Optuna with Covariance Ma
 - Both optimization techniques proved highly effective for hyperparameter tuning in XGBoost models.
 - **CMA-ES** emerged as the more consistent performer, achieving slightly better results across datasets and showing less sensitivity to seed variations.
 - **Optuna** demonstrated faster convergence, making it a suitable choice when time is a critical factor.
+
+![Accuracy Difference Between Optuna and CMA-ES by Dataset and Seed](imgs/Untitled8.png)
